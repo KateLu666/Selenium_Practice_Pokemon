@@ -1,13 +1,13 @@
 package org.example;
 
 public class Pokemon {
-    private int id;
+    private String id;
     private String name;
     private String href;
     private String[] types = new String[2];
     private String eggGroups;
 
-    public Pokemon(int id, String name, String href, String type1, String type2, String eggGroups) {
+    public Pokemon(String id, String name, String href, String type1, String type2, String eggGroups) {
         this.id = id;
         this.name = name;
         this.href = href;
@@ -16,7 +16,7 @@ public class Pokemon {
         this.eggGroups = eggGroups;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
@@ -36,7 +36,7 @@ public class Pokemon {
         return eggGroups;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

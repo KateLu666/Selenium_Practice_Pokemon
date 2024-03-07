@@ -21,6 +21,14 @@
             <artifactId>selenium-java</artifactId>
             <version>4.17.0</version> <!-- Use the latest version -->
         </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>htmlunit-driver</artifactId>
+            <version>4.13.0</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>
